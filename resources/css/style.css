@@ -6,6 +6,32 @@ html {
 
 .container {
   margin: auto;
+  width: 100%;
+  border: 3px solid black;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.sixty {
+  width: 60%;
+  background-color: red;
+}
+
+.sixty img {
+  width: 100%;
+}
+
+.fourty {
+  width: 40%;
+  background-color: green;
+}
+
+.margin {
+  margin: 32px 24px;
 }
 
 /* END GENERAL */
@@ -17,9 +43,7 @@ header {
 
 nav {
   font-size: 1.5rem;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1.5rem 0;
 }
 
@@ -29,11 +53,9 @@ nav img, footer img {
   margin-right: 0.5rem;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+#darker {
+  color: black;
 }
-
 
 ul li {
   display: inline;
