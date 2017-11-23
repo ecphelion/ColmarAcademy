@@ -21,14 +21,12 @@ html {
 }
 
 .sixty {
-  width: 60%;
+  max-width: 60%;
+  margin-left: 2rem;
 }
 
 .fourty {
-  width: 40%;
-}
-
-.gap {
+  max-width: 40%;
   margin-left: 2rem;
 }
 
@@ -105,6 +103,7 @@ a {
 #first {
   background-color: rgb(205, 197, 183);
   padding: 2rem 0;
+  align-items: center;
 }
 
 .button a {
@@ -114,12 +113,14 @@ a {
   padding: 1.5rem 8rem;
   background-color: rgb(81, 73, 58);
   color: rgb(252, 247, 238);
+  transition: background-color 400ms linear 0;
 }
 
 .button a:hover {
   color: rgb(81, 73, 58);
   background-color: rgb(252, 247, 238);
   cursor: pointer;
+  transition: background-color 400ms linear 0;
 }
 
 /* END FIRST */
@@ -142,20 +143,29 @@ a {
   font-weight: 200;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .triple-stacked {
   border-bottom: 1px solid rgb(205, 197, 183);
   border-top: 1px solid rgb(205, 197, 183);
   border-left: 1px solid rgb(205, 197, 183);
+  background-color: red;
 }
 
 .image-small img {
-  width: 90%;
-  padding: 2rem;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.image-small {
 }
 
 .description-right {
-  width: 65%;
   padding: 0 2rem 0 1.5rem;
+  width: 55%;
 }
 
 #middle {
@@ -180,10 +190,11 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  align-items: stretch;
 }
 
-.thirty {
-  width: 30%;
+.item-box {
+  max-width: 30%;
   margin: 1rem;
   background-color: rgb(252, 247, 238);
 }
