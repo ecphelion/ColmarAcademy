@@ -34,7 +34,7 @@ html {
   margin-left: 2rem;
 }
 
-.image img {
+.image img, .image video {
   max-width: 100%;
   display: block;
 }
@@ -43,6 +43,10 @@ h1 {
   font-size: 2.5rem;
   font-weight: 800;
   padding: 2rem 0;
+}
+
+#third h1, #fourth h1 {
+  text-align: center;
 }
 
 h3 {
@@ -58,7 +62,7 @@ p {
 
 /* END GENERAL */
 
-header {
+header, footer {
   width: 100%;
   padding: 1.5rem 0;
 }
@@ -68,7 +72,7 @@ nav {
   justify-content: space-between;
 }
 
-nav img, footer img {
+nav img {
   height: 2rem;
   margin-left: 2rem;
   margin-right: 0.5rem;
@@ -140,7 +144,7 @@ a {
   margin-right: 2rem;
 }
 
-.triple-stacked {
+.stacked {
   border-bottom: 1px solid rgb(205, 197, 183);
   border-top: 1px solid rgb(205, 197, 183);
   border-left: 1px solid rgb(205, 197, 183);
@@ -169,7 +173,7 @@ a {
   cursor: pointer;
 }
 
-#middle {
+#center-box {
   background-color: rgb(205, 197, 183);
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
@@ -180,10 +184,6 @@ a {
 #third {
   padding: 2rem 0;
   background-color: rgb(205, 197, 183);
-}
-
-#third h1 {
-  text-align: center;
 }
 
 #six-item-box {
@@ -214,3 +214,31 @@ h4 {
 }
 
 /* END THIRD */
+
+#fourth {
+  padding: 2rem 0;
+}
+
+#fourth .fourty {
+  align-self: flex-start;
+}
+
+#top-box {
+  background-color: rgb(205, 197, 183);
+  margin-bottom: 0.8rem;
+}
+
+/* END FOURTH */
+
+footer .flex {
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+footer p {
+  margin-left: 2rem;
+}
+
+footer a {
+  margin-right: 2rem;
+}
