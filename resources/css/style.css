@@ -101,6 +101,7 @@ p {
   color: rgb(81, 73, 58);
   background-color: rgb(205, 197, 183);
   cursor: pointer;
+  transition: background-color 400ms linear, color 400ms linear;
 }
 
 /* MOBILE */
@@ -141,6 +142,7 @@ nav img {
 .nav-box:hover {
   background-color: rgb(205, 197, 183);
   color: rgb(252, 247, 238);
+  transition: all 400ms linear;
 }
 
 .nav-box:last-child {
@@ -204,6 +206,7 @@ a {
   color: rgb(81, 73, 58);
   background-color: rgb(252, 247, 238);
   cursor: pointer;
+  transition: background-color 400ms linear;
 }
 
 /* END FIRST */
