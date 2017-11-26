@@ -326,3 +326,11 @@ footer p {
 footer a {
   margin-right: 2rem;
 }
+
+footer i, footer span {
+  padding-left: 1rem;
+}
+
+footer span {
+  font-weight: 800;
+}
